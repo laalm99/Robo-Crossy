@@ -17,7 +17,7 @@ namespace Lamya.CrossyRoad
         void Start()
         {
             tZ = terrains[0].transform.localScale.z;
-            nextTerrainPos = new Vector3(nextTerrainPos.x, nextTerrainPos.y, nextTerrainPos.z + tZ);
+            nextTerrainPos = new Vector3(0, -0.75f, 0 + tZ);
             GenerateTerrain();
         }
 
@@ -38,7 +38,7 @@ namespace Lamya.CrossyRoad
         /// </summary>
         private void GenerateTerrain()
         {
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 25; i++)
             {
                 temp = Instantiate(terrains[Random.Range(0, 3)], nextTerrainPos, Quaternion.identity);
                 nextTerrainPos = new Vector3(nextTerrainPos.x, nextTerrainPos.y, nextTerrainPos.z + tZ);
@@ -53,7 +53,7 @@ namespace Lamya.CrossyRoad
         /// </summary>
         private void RemoveTerrain()
         {
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 25; i++)
             {
                 tempPos = terrainsPool[i].transform.position;
                 int diff = (int)(playerPos.position.z - tempPos.z);

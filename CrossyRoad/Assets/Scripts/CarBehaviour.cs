@@ -19,7 +19,7 @@ namespace Lamya.CrossyRoad
         private void Update()
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            if (transform.position.x < -30)
+            if (transform.position.x < -50)
             {
                 Destroy(gameObject);
             }

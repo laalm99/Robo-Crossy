@@ -6,6 +6,7 @@ TagManager:
   tags:
   - grassObstacle
   - water
+  - log
   layers:
   - Default
   - TransparentFX

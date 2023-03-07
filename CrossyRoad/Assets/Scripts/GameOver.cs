@@ -23,6 +23,9 @@ namespace Lamya.CrossyRoad
             Destroy(gameObject);
         }
 
+        /// <summary>
+        /// This method is called every time there is a lose condition and it disables the player and enables the game over screen.
+        /// </summary>
         public void GameEnded()
         {
             player.SetActive(false);

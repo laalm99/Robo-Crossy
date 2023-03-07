@@ -5200,7 +5200,7 @@ GameObject:
   - component: {fileID: 1657788018373962912}
   m_Layer: 0
   m_Name: Projector
-  m_TagString: Untagged
+  m_TagString: log
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5214,7 +5214,7 @@ Transform:
   m_GameObject: {fileID: 6327108997753252889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6327108997753494753}
@@ -5269,8 +5269,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6327108997753252889}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.7524457, y: 0.19557595, z: 4.6491613}
-  m_Center: {x: -0.038229324, y: 1.9296921, z: -0.07633209}
+  m_Size: {x: 6, y: 2.5, z: 6}
+  m_Center: {x: 0, y: -1.5, z: 0}
