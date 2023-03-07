@@ -201,7 +201,7 @@ namespace Lamya.CrossyRoad
         /// </summary>
         public bool CheckGrass()
         {
-            if (Physics.Raycast(playerTargetPosition, transform.forward, out RaycastHit hitInfo, 2f))
+            if (Physics.Raycast(playerTargetPosition, transform.forward, out RaycastHit hitInfo, 1.5f))
             {
                 if (hitInfo.collider.tag == "grassObstacle")
                 {
